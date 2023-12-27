@@ -4,8 +4,14 @@ import (
 	"fmt"
 )
 
-func main() {
+func line() {
+	fmt.Println("-----------------------------------")
+}
 
+func main() {
+	// Declare variable
+	// var fullname string = "Chinnawich Amapai"
+	// var age int = 22
 	fullName := `Chinnawich Ampai`
 	age := 22
 
@@ -14,6 +20,7 @@ func main() {
 
 	fullName = "Shin"
 	fmt.Println(fullName)
+	line()
 
 	//🚀 Type of Variable
 	var booleanVar bool = true
@@ -25,4 +32,20 @@ func main() {
 	fmt.Println("Integer:", intVar)
 	fmt.Println("Float:", floatVar)
 	fmt.Println("String:", stringVar)
+	line()
+
+	// Constant
+	const color string = "Red"
+	fmt.Println("Color:", color)
+	//Operator
+	// use like another language
+	a := 10
+	b := 3
+	fmt.Println(a + b) // 13
+	fmt.Println(a - b) // 7
+	fmt.Println(a * b) // 30
+	fmt.Println(a / b) // 3
+	fmt.Println(a % b) // 1
+	line()
+
 }
