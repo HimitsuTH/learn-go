@@ -48,4 +48,26 @@ func DayOfWeek() {
 	default:
 		fmt.Println("Invalid Day")
 	}
+
+	//For loop
+	for i := 1; i < 10; i++ {
+		fmt.Printf("number: %d", i)
+	}
+
+	//Do While Loop
+	// i := 1
+	// for {
+	// 	fmt.Printf("number: %d\n", i)
+	// 	i++
+	// 	if i >= 10 {
+	// 		break
+	// 	}
+	// }
+
+	//While Loop
+
+	// for i < 10 {
+	// 	fmt.Printf("number: %d\n", i)
+	// 	i++
+	// }
 }
